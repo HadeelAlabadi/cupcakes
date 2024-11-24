@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: sans-serif;
+
+}
+
+nav img{
+    width: 90px;
+    margin-left: 70px;
+}
+.nav li{
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    top: 60px;
+    font-size: 20px;
+    left: 200px;
+    white-space:wrap;
+   
+   
+}
+.nav li:hover{
+text-shadow: 0 0 19 rgb(255, 255, 255,100);  
+   color: #bf0449;
+}
+header{
+    margin-bottom: 60px;
+    background-color: #fff3f5;
+    width: 100%;
+    height: 150px;
+
+}
+
+
+.CONTACT-US{
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    position: relative;
+    top: 70px;
+    right: -54%;
+    font-size: 17px;
+    background-color: #bf0449;
+    border: #bf0449;
+    color: #f4eeeb;
+    font-weight: 600;
+
+}
+button:hover{
+    background: black;
+
+}
+main{
+    background: #EED9C4;
+    width: 100%;
+    height: 700px;
+    display:  block;
+}
+main img{
+width: 500px;
+margin-top: 20px;
+margin-left: 50px;
+height: 400px;
+
+}
+ h3{
+    
+    color: #bf0449;
+}
+h1{
+    font-size: 50px;
+}
+ h3,h1{
+text-align: center;
+
+}
+.images{
+    margin-left: 100px;
+
+
+}
+main h4{
+text-align: center;
+margin-top: 20px;
+margin-left: -100px;
+font-size: large;
+}
+ .Strawberry-Cupcakes{
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    position: relative;
+    color: black;
+    background-color:#fff3f5;
+    outline: none;
+    border: #f4eeeb;
+    margin-left: 500px;
+    margin-top: 20px;
+    font-weight: 400px;
+    margin-bottom: 50px;
+
+ }
+ .Strawberry-Cupcakes:hover{
+    color: #fff3f5;
+ }
+.background{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 90%;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.slideshow-container img{
+    width: 100%;
+    height: 600px;
+
+}
+.thridpage{
+    width: 100%;
+    height: 220px;
+    background-color:#EED9C4 ;
+}
+
+.Learn.More{
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    position: relative;
+    font-size: 17px;
+    background-color: #bf0449;
+    border: #bf0449;
+    color: #f4eeeb;
+    font-weight: 600;
+    right: -600px;
+    top: 20px;
+
+}
+.Learn.More:hover{
+    background-color: black;
+}
+
+footer{
+  height: 400px;
+  background-color: #fff3f5;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  
+}
+footer img{
+  width: 100px;
+  position: relative;
+  
+
+
+}
+.img{
+  position: relative;
+  width: 50px;
+  height: 50px;
+ border-radius:50%;
+ display: inline-block;
+ left: 559px;
+ margin-left: 15px;
+ top: 15px;
+ 
+ 
+
+
+}
+.footer-text p{
+  text-align: center;
+  color: #bf0449;
+  font-size: x-large;
+  padding-top: 40px;
+}
+@keyframes image {
+  0% {
+      transform: translateX(0);
+  }
+  50% {
+      transform: translateX(150px);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+
+.img-cupcakes {
+  width: 200px;
+  position: relative;
+  animation: image 3s infinite; 
+}
+
+
